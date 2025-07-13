@@ -4,7 +4,7 @@
 
 Option Explicit
 
-'Variab
+'Varaible decleration
 Dim a
 
 a = 1
