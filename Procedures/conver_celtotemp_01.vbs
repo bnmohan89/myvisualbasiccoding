@@ -8,8 +8,8 @@
  'variable decleration
  Dim temp,Sum,num1,num2, total
 
-num1 = 10
-num2 = 10
+'num1 = 10
+'num2 = 10
 
  'inCelsius, tempInput
 
@@ -35,9 +35,11 @@ num2 = 10
 
 'Another Sunction Procedure -- can return a value
  Function Add(num1, num2)
-   'num1 = InputBox("Enter the Value of number 1 ", 1)
-    'num2 = InputBox("Enter the Value of number 2 ", 1)
-    Sum = num1 + num2
+    MsgBox "I'm into Add Function"
+  ' num1 = InputBox("Enter the Value of number 1 ", 1)
+  ' num2 = InputBox("Enter the Value of number 2 ", 1)
+    'Sum = IsNumeric(num1) + IsNumeric(num2)
+    sum = num1+num2
     Add = Sum
    
    
