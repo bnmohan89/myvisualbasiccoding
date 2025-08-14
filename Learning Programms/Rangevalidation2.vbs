@@ -12,5 +12,5 @@ If IsNumeric(InpNumber) Then
           MsgBox "Entered value is outside the expected range (1 to 1000)."
     End If
 Else
-    MsgBox "Input Value : Please enter the numeric value."
+    WScript.echo "Input Value : Please enter the numeric value."
 End If
